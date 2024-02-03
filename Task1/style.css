@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  #first{
+  border: solid;
+  box-sizing: border-box;
+ border-width: 20px;
+  }
+  
+
+
+
+
+
+
+  #navbar{
+    height: 5%;
+    
+    
+  
+  }
+  #body{
+    height: 2000px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    border: 2px solid black;
+   margin: 0;
+   padding: 0;
+  }
+  #navbar nav{
+    
+    width:95% ;
+    height: 100%;
+    margin:auto ;
+    display: flex;
+    align-items:center ;
+    justify-content: space-around;
+    
+  }
+  
+  .loc h2{
+    width: 170px;
+    height: 45px;
+  border: solid;
+  text-align: center;
+  float: none;
+  background-color:purple;
+  align-items:center;
+  display: inline-flex;
+  color: #fff;
+  
+  }
+  .loc p{
+  width: 40%;
+  text-align: center;
+  align-items: center;
+  
+  }
+  #bloc1 h3{
+    border: solid;
+    background-color: purple;
+    width: 20%;
+    height: 45px;
+    text-align: center;
+    line-height: 35px;
+    color:#fff;
+    float: none;
+    
+  }
+  
+  .tea{
+  
+    
+    background-color: rgba(128, 0, 128, 0.63);
+  }
+  
+  
+  @media screen and (min-width: 500px) {
+    body {
+       color: none;
+       
+    }
+   }
+   
+   
+   @media screen and (max-width: 499px) {
+    body {
+      
+       color: white;
+    }
+   }
+  
+  
+  .team-member figure img{
+  width: 140px;
+  height: 150px;
+  width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+
+  }
+  .team-member {
+    background-color:white;
+    border-radius: 5px;
+    padding: 60px;
+    margin: 10px;
+    text-align: center;
+    
+    
+    display: flex;
+  align-items:center ;
+  text-align: center;
+  gap: 20px;
+  padding: left 40px;
+   margin-bottom: 70px;
+  }
+  .team-member h2 {
+    
+    font-size: 16px;
+  
+  }
+  .team-member h3 {
+    color: #777;
+    
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .portion{
+   
+  
+  
+  }
+   .portion #portion2{
+  height: 60px;
+  width: 200px;
+  
+  background-color: purple;
+  }
+  .portion h3{
+    display: inline;
+    font-size: 18px;
+    line-height: 45px;
+    float: none;
+    color: #fff;
+    
+  
+    }
+    .bookmark-right1{
+      float: right;
+      position: relative;
+      bottom:210px;
+      font-size: 100px;
+      transform: rotate(90deg);
+    margin-left: 200px;
+    padding-left: 2px;
+    
+   
+    
+    
+    
+    }
+
+    
+    .bookmark-right{
+        float: right;
+        position: relative;
+        bottom:190px;
+        font-size: 200px;
+        transform: rotate(90deg);
+      margin-left: 10px;
+      padding-left: 30px;
+      
+      }
+
+      .bookmark-left{
+        float: left;
+        position: relative;
+        bottom:190px;
+        font-size: 100px;
+        transform: rotate(270deg);
+      margin-left: 0px;
+      padding-left:0px;
+      }
+   
+    #bookmark1{
+        float: right;
+        position: relative;
+        bottom:45px;
+        transform: rotate(90deg);
+      margin-left: 10px;
+      padding-left: 30px;
+      }
+  
+  
+  .portion1{
+    
+  
+  
+  }
+  .portion1 #second{
+    height: 60px;
+    width: 200px;
+    
+    background-color: purple;
+  
+  }
+  .portion1 h3{
+    display: inline;
+    font-size: 18px;
+    line-height: 45px;
+    float: none;
+    color: #fff;
+    }
